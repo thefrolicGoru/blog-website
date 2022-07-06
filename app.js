@@ -4,6 +4,9 @@ const Blog = require('./models/blog');
 const morgan = require('morgan');
 const blogRoutes = require('./routes/blogRoutes');
 
+//constants
+const PORT = process.env.PORT || 3000
+
 // express app
 const app = express();
 
