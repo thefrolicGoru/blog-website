@@ -46,7 +46,6 @@ const blog_delete = (req, res) => {
       console.log(err);
     });
 }
-
 module.exports = {
   blog_index, 
   blog_details, 
